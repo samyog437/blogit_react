@@ -1,0 +1,270 @@
+.navigation-bar {
+  color: #f0f2f5!important;
+  background-color: #ad5389!important;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 700;
+
+  margin: 0px 40px 0px 20px;
+}
+
+.nav-button {
+  font-family: "Inter";
+  font-weight: 500;
+
+  padding: 2px 20px;
+
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: #fff;
+  border: 2px white solid;
+  border-radius: 4px;
+  outline: none;
+  background: #ad5389;
+}
+
+.nav-button:hover {
+  transition: 0.5s ease-in-out;
+
+  color: #ad5389;
+  border: 2px #fff solid;
+  background: #fff;
+}
+
+.user-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  box-sizing: border-box;
+  margin: 10px auto 10px;
+  padding: 40px;
+
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 0 0 20px;
+}
+
+.form-group:last-child {
+  margin: 0;
+}
+
+.form-group label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+
+  display: block;
+
+  margin: 0 0 10px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-group input {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+
+  display: block;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 20px;
+
+  transition: 0.3s ease;
+
+  color: rgba(0, 0, 0, 0.6);
+  border: 0;
+  border-radius: 4px;
+  outline: none;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.form-group input:focus {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.register-button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+
+  padding: 12px 20px;
+
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  outline: none;
+  background: #4285f4!important;
+}
+
+.form-group button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+
+  width: 100%;
+  padding: 12px 20px;
+
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  outline: none;
+  background: #ad5389;
+}
+
+.blog-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+
+  padding: 10px 0px;
+}
+
+.blog-content {
+  padding-bottom: 20px;
+
+  white-space: pre-wrap;
+}
+
+.comment-section {
+  margin-top: 20px;
+  padding: 20px;
+
+  border-radius: 8px;
+  background-color: rgb(210, 210, 210);
+}
+
+.new-comment {
+  max-width: 600px;
+}
+
+.comment-author {
+  font-weight: bold;
+
+  margin-right: 20px;
+}
+
+.profile-header {
+  position: relative;
+
+  display: flex;
+
+  width: 100%;
+  height: 190px;
+  margin-bottom: 40px;
+
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.profile-img {
+  float: left;
+
+  width: 230px;
+  height: 150px;
+}
+
+.profile-img img {
+  position: absolute;
+  z-index: 5;
+  top: 20px;
+  left: 50px;
+
+  width: 130px;
+  height: 130px;
+
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-nav-info {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-nav-info h3 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.profile-nav-info .user-email {
+  font-weight: bold;
+
+  display: flex;
+
+  margin-right: 5px;
+
+  color: #777;
+}
+
+.profile-option {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+  transform: translateY(-50%);
+
+  border-radius: 50%;
+  outline: none;
+  background: #ad5389;
+}
+
+@media(max-width: 1100px) {
+  .profile-side {
+      width: 250px;
+      padding: 90px 15px 20px;
+  }
+
+  .profile-img img {
+      top: 50px;
+      left: 50px;
+
+      width: 100px;
+      height: 100px;
+  }
+}
+
+@media(max-width: 900px) {
+  .profile-img {
+      width: 180px;
+  }
+}
